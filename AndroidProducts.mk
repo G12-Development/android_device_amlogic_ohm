@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_deadpool.mk
+    $(LOCAL_DIR)/lineage_ohm.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_deadpool-eng \
-    lineage_deadpool-user \
-    lineage_deadpool-userdebug
+    lineage_ohm-eng \
+    lineage_ohm-user \
+    lineage_ohm-userdebug
