@@ -8,10 +8,9 @@
 
 set -e
 
-export DEVICE=deadpool
-export DEVICE_COMMON=g12-common
-export TARGET_SOC=g12a
-export VENDOR=askey
+export DEVICE=ohm
+export DEVICE_COMMON=ne-common
+export VENDOR=amlogic
 export VENDOR_BRAND="${VENDOR}"
 export VENDOR_COMMON=amlogic
 
