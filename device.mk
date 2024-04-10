@@ -8,8 +8,7 @@ TARGET_AMLOGIC_SOC := s4
 
 ## Bluetooth
 PRODUCT_PACKAGES += \
-    OhmBluetoothOverlay \
-    libbt-vendor
+    OhmBluetoothOverlay
 
 ## Keylayout (IR)
 PRODUCT_COPY_FILES += \
