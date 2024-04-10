@@ -17,9 +17,8 @@ TARGET_BOOTLOADER_BOARD_NAME := ohm
 TARGET_DTB_NAME := ohm
 TARGET_DTBO_NAME := android_overlay_dt
 
-## Kernel modules
-TARGET_KERNEL_EXT_MODULES := \
-    dhd-driver/bcmdhd.101.10.361.x
+## Kernel
+TARGET_KERNEL_CONFIG := ohm_defconfig
 
 ## Partitions
 BOARD_SUPER_PARTITION_SIZE := 1887436800
