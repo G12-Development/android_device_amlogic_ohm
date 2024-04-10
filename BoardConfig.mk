@@ -14,7 +14,7 @@ BOARD_HAVE_BLUETOOTH_QCOM := true
 TARGET_BOOTLOADER_BOARD_NAME := ohm
 
 ## DTB
-TARGET_DTB_NAME := ohm
+TARGET_DTB_NAME := sc2_s905x4_ah212
 TARGET_DTBO_NAME := android_overlay_dt
 
 ## Kernel
