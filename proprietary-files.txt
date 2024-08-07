@@ -13,15 +13,6 @@ system_ext/priv-app/DroidTvSettingsTwoPanel/DroidTvSettingsTwoPanel.apk
 ## ODM
 odm/etc/firmware/firmware.le
 odm/etc/ms12/libdolbyms12.so
-odm/etc/a2dp_audio_policy_configuration.xml
-odm/etc/audio_policy_configuration.xml
-odm/etc/audio_policy_volumes.xml
-odm/etc/default_volume_tables.xml
-odm/etc/hearing_aid_audio_policy_configuration.xml
-odm/etc/media_codecs.xml
-odm/etc/media_codecs_performance.xml
-odm/etc/msd_audio_policy_configuration.xml
-odm/etc/usb_audio_policy_configuration.xml 
 odm/lib/libHwAudio_dcvdec.so
 odm/lib/libHwAudio_dtshd.so
 odm/ueventd.rc
