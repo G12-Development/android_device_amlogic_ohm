@@ -18,7 +18,7 @@ TARGET_DTB_NAME := sc2_s905x4_ah212
 TARGET_DTBO_NAME := android_overlay_dt
 
 ## Kernel
-TARGET_KERNEL_CONFIG := ohm_defconfig
+TARGET_KERNEL_CONFIG := lineage_kvim1s_defconfig
 
 ## Partitions
 BOARD_SUPER_PARTITION_SIZE := 1887436800
