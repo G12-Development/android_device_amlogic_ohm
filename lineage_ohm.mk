@@ -24,12 +24,9 @@ PRODUCT_MANUFACTURER := Amlogic
 PRODUCT_MODEL := ohm
 PRODUCT_NAME := lineage_ohm
 
-PRODUCT_SYSTEM_NAME := ohm_gtv
-PRODUCT_SYSTEM_DEVICE := ohm_gtv
-
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="ohm_gtv-userdebug 12 SC eng.bin.ya.20230223.173800 test-keys" \
-    TARGET_DEVICE=$(PRODUCT_DEVICE) \
-    TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
-
-BUILD_FINGERPRINT := Amlogic/ohm_gtv/ohm:12/SC/bin.yang02231735:userdebug/test-keys
+    BuildDesc="ohm_gtv-userdebug 12 SC eng.bin.ya.20230223.173800 test-keys" \
+    BuildFingerprint=Amlogic/ohm_gtv/ohm:12/SC/bin.yang02231735:userdebug/test-keys \
+    DeviceProduct=ohm_gtv \
+    SystemDevice=ohm \
+    SystemName=ohm
